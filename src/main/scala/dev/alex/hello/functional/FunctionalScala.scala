@@ -10,5 +10,13 @@ object FunctionalScala {
     val doubledSalaries = salaries.map(doubleSalary)
 
     println(doubledSalaries)
+
+    //pure function
+    println(doubleNumber(2))
+    println(doubleNumber(8))
+
   }
+
+  def doubleNumber(number: Integer): Integer = scala.math.pow(number.doubleValue(), 2).intValue()
+
 }

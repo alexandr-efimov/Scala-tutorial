@@ -14,5 +14,9 @@ public class FunctionalJava {
         System.out.println("Before sorting: " + names);
         names.sort(comparatorReversed);
         System.out.println("After sorting: " + names);
+
+        //pure function
+        var age = Math.sqrt(64);
+        System.out.println(age);
     }
 }
